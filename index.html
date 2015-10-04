@@ -1,70 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <!--This is including BootStrap which allows me to use styles that have
 tend to be very commonly used in all web applications
 made by the folks who made Bootstrap -->
-
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 <head>
   <title>HTML5 Skeleton</title>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>
   <header>
     <h1>James Beamer Portfolio</h1>
-      <ul class="nav nav-pills">
-        <li role="presentation" class="active"><a href="#">Home</a></li>
-        <li role="presentation"><a href="file:///C:/Users/James/Documents/James-Beamer-Web-Portfolio/Projects.html#">Projects</a></li>
-        <li role="presentation"><a href="file:///C:/Users/James/Documents/James-Beamer-Web-Portfolio/Bio.html#">Bio</a></li>
-      </ul>
+    <ul class="nav nav-pills">
+      <li role="presentation" class="active"><a href="#">Home</a></li>
+      <li role="presentation"><a href="file:///C:/Users/James/Documents/James-Beamer-Web-Portfolio/Projects.html#">Projects</a></li>
+      <li role="presentation"><a href="file:///C:/Users/James/Documents/James-Beamer-Web-Portfolio/Bio.html#">Bio</a></li>
+    </ul>
   </header>
-  <div id="content">
+  <div id="content container">
     <h2>Relevant Work</h2>
     <!-- Set Div As your requirement -->
-    <div class="post">
-      <h2>Excess-Three Gray Code Counter</h2>
-      <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
-      <p>Ipsum lurum hur\um turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
-      <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
+    <div class="row">
+      <div class="col-sm-4 post">
+        <h2>Excess-Three Gray Code Counter</h2>
+        <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
+        <p>Ipsum lurum hur\um turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
+        <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
+      </div>
+      <!-- Set Div As your requirement -->
+      <div class="col-sm-4 post">
+        <h2>IP Address Filter using Algorithms</h2>
+        <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
+        <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
+        <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
+      </div>
+      <!-- Set Div As your requirement -->
+      <div class="col-sm-4 post">
+        <h2>Image Processing Package w/ Stacks and Linked Lists</h2>
+        <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
+        <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
+        <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
+      </div>
     </div>
-    <!-- Set Div As your requirement -->
-    <div class="post">
-      <h2>IP Address Filter using Algorithms</h2>
-      <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
-      <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
-      <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
-    </div>
-    <!-- Set Div As your requirement -->
-    <div class="post">
-      <h2>Image Processing Package w/ Stacks and Linked Lists</h2>
-      <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
-      <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
-      <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
-    </div>
-    <div class="post">
-      <h2>Some Project</h2>
-      <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
-      <p>Ipsum lurum hur\um turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
-      <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
-    </div>
-    <!-- Set Div As your requirement -->
-    <div class="post">
-      <h2>News Article</h2>
-      <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
-      <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
-      <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
-    </div>
-    <!-- Set Div As your requirement -->
-    <div class="post">
-      <h2>New Article</h2>
-      <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
-      <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
-      <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
+    <div class="row">
+      <div class="col-sm-4 post">
+        <h2>Some Project</h2>
+        <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
+        <p>Ipsum lurum hur\um turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
+        <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
+      </div>
+      <!-- Set Div As your requirement -->
+      <div class="col-sm-4 post">
+        <h2>News Article</h2>
+        <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
+        <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
+        <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
+      </div>
+      <!-- Set Div As your requirement -->
+      <div class="col-sm-4 post">
+        <h2>New Article</h2>
+        <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
+        <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
+        <p>Ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum ipsum lurum hurum turum.</p>
+      </div>
     </div>
   </div>
   <div id="footer">
