@@ -40,10 +40,7 @@ div#content {
 
 .post {
 	display: inline-block;
-	/*width: 30%;*/
-	 border:1px solid grey;
+	border:1px solid grey;
     /*margin:5px;*/
-    /*margin-bottom:15px;*/
-    /*padding:8px;*/
     background-color:white;
 }
