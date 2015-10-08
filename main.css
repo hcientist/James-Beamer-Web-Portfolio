@@ -44,3 +44,16 @@ div#content {
     /*margin:5px;*/
     background-color:white;
 }
+
+li.project-tile {
+    display: inline-block;
+    max-width: 300px;
+    max-height: 300px;
+    border: 1px solid black;
+    background-color: white;
+    overflow: hidden;
+}
+
+ul.project-tiles {
+    padding: 0;
+}

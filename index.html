@@ -11,59 +11,31 @@ made by the folks who made Bootstrap -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="shortcut icon" href="images/favicon.ico" />
 </head>
 
-<body>
+<body ng-app="portfolio">
   <header>
     <h1>James Beamer Portfolio</h1>
     <ul class="nav nav-pills">
-      <li role="presentation" class="active"><a href="index.html">Home</a></li>
-      <li role="presentation"><a href="Projects.html">Projects</a></li>
-      <li role="presentation"><a href="Bio.html">Bio</a></li>
+      <li role="presentation" class="active"><a href="#/">Home</a></li>
+      <li role="presentation"><a href="#/projects">Projects</a></li>
+      <li role="presentation"><a href="#/bio">Bio</a></li>
     </ul>
   </header>
-  <div class="container-fluid" style="background-color:#eee;">
-    <h2>Relevant Work</h2>
-    <!-- Set Div As your requirement -->
-    <div class="row">
-      <div class="col-sm-4 post">
-        <h2>Excess-Three Gray Code Counter</h2>
-        <img src="images/project-idea.png" width="100%">
-      </div>
-      <!-- Set Div As your requirement -->
-      <div class="col-sm-4 post">
-        <h2>IP Address Filter using Algorithms</h2>
-        <img src="images/project-idea.png" width="100%">
-      </div>
-      <!-- Set Div As your requirement -->
-      <div class="col-sm-4 post">
-        <h2>Image Processing Package w/ Stacks and Linked Lists</h2>
-        <img src="images/project-idea.png" width="100%">
-
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-4 post">
-        <h2>Some Project</h2>
-        <img src="images/project-idea.png" width="100%">
-      </div>
-      <!-- Set Div As your requirement -->
-      <div class="col-sm-4 post">
-        <h2>News Article</h2>
-        <img src="images/project-idea.png" width="100%">
-      </div>
-      <!-- Set Div As your requirement -->
-      <div class="col-sm-4 post">
-        <h2>New Article</h2>
-        <img src="images/project-idea.png" width="100%">
-      </div>
-    </div>
+  <div class="container-fluid" style="background-color:#eee;" ng-view>
   </div>
   <div id="footer">
     <p>&copy; 2015 jamesmatthewbeamer.com All rights reserved.</p>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+  <script src="https://code.angularjs.org/1.4.7/angular-route.js"></script>
+  <script src="ui-bootstrap-tpls-0.13.4.min.js"></script>
+  <script src="portfolio-application.js"></script>
+  <script src="controllers/home.js"></script>
+  <script src="controllers/proj.js"></script>
 </body>
 
 </html>
